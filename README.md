@@ -15,3 +15,17 @@ Screenshot for an ancient version:<br>
 
 YouTube video:
 https://www.youtube.com/watch?v=TIiCQfWdtVg
+
+Build Instructions
+------------------
+To build this project, you need:
+- Android SDK Platform 31
+- Android Build Tools 31.0.0
+- NDK 21.4.7075529
+- JDK 17 (Gradle 7.3.3 is incompatible with JDK 21)
+
+Build command:
+```bash
+./gradlew assembleDebug
+```
+The APK will be located at `app/build/outputs/apk/debug/diskusage-v*-debug.apk`.
